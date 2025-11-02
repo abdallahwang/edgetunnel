@@ -161,6 +161,10 @@
 | URL302 | `https://t.me/CMLiussss` |❌| 主页302跳转(支持多url, url之间使用`,`或`换行`作间隔, 小白别用) |  |
 | URL | `https://blog.cmliussss.com` |❌| 主页反代伪装(支持多url, url之间使用`,`或`换行`作间隔, 乱设容易触发反诈) |  |
 | CFPORTS | `2053`,`2096`,`8443` |❌| CF账户标准端口列表 |  |
+| CF_EMAIL | `admin@google.com` |❌| CF账户的邮箱，用于获取 Workers/Pages 请求数 |  |
+| CF_APIKEY | `1234567890abcdef1234567890abcdef` |❌| CF账户的`Global API Key`，用于获取 Workers/Pages 请求数 |  |
+
+> **注意：** 只有 `CF_EMAIL` 和 `CF_APIKEY` 变量同时存在时，订阅时才会返回 CF Workers/Pages 的请求数用量信息。
 
 ## ❗ 注意事项
 
@@ -265,8 +269,11 @@
 
 # 🙏 特别鸣谢
 ### 💖 赞助支持 - 提供云服务器维持[订阅转换服务](https://sub.cmliussss.net/)
-- [Alice Networks LTD](https://url.cmliussss.com/alice)
-- [VTEXS Enterprise Cloud](https://console.vtexs.com/?affid=1532)
+- [NodeLoc](https://www.nodeloc.com/)
+- [Alice](https://url.cmliussss.com/alice)
+- [EasyLinks](https://www.vmrack.net?ref_code=5Zk7eNhbgL7)
+- [ZMTO(VTEXS)](https://zmto.com/?affid=1532)
+
 ### 🛠 开源代码引用
 - [zizifn/edgetunnel](https://github.com/zizifn/edgetunnel)
 - [3Kmfi6HP/EDtunnel](https://github.com/6Kmfi6HP/EDtunnel)
@@ -274,3 +281,6 @@
 - [Stanley-baby](https://github.com/Stanley-baby)
 - [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash/config)
 - [股神](https://t.me/CF_NAT/38889)
+- [Workers/Pages Metrics](https://t.me/zhetengsha/3382)
+- [白嫖哥](https://t.me/bestcfipas)
+- [Mingyu](https://github.com/ymyuuu/workers-vless)
